@@ -74,7 +74,7 @@ public class Vacancy {
                     %3600%60;
             return String.format("%d:%d:%d",hours,mins,secs);
         }
-        return "Null";
+        return null;
     }
     @Override
     public String toString(){
